@@ -873,6 +873,12 @@ mod_perl2              -Version- 2.000009
 # VIM 配置
 
 ```
+git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+```
+
+```
 set sw=4
 set ts=4
 set et
