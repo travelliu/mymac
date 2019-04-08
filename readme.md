@@ -815,6 +815,20 @@ alias ass='awk -f /Users/Travel/Oracle_tools/ass/ass1038.awk'
 export PATH="/usr/local/opt/gnu-getopt/bin:/usr/local/texlive/2017/bin/x86_64-darwin:$PATH"
 
 alias plantuml="plantuml -config ~/.plantuml/plantuml.cfg -tpng -charset UTF-8
+# go
+export GOPATH="/Users/travel/Documents/Code/go"
+export GO111MODULE=on
+export GOPROXY=https://goproxy.io
+export PATH=$GOPATH/bin:$PATH
+
+# pythom
+export PATH=/usr/local/opt/python/libexec/bin:$PATH
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+# mysql
+
+export PATH=/usr/local/opt/mysql@5.7/bin:$PATH
+
 ```
 
 
